@@ -173,6 +173,10 @@ body {
   margin: 0 10px 50px 10px;
 }
 
+.centre-text {
+  width: 350px;
+}
+
 .language-container {
   display: flex;
   flex-direction: column;
@@ -255,6 +259,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.bio-box {
+  width: 700px;
+  margin-bottom: 20px;
 }
 
 .future-about {
