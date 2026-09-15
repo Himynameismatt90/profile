@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.nav-bar > a,
+.nav-bar > button,
 .nav-bar > p {
   cursor: pointer;
   transition: 0.5s ease;
@@ -17,8 +17,15 @@
   color: black;
 }
 
-.nav-bar > a:hover {
+.nav-bar > button:hover {
   color: white;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+
+  cursor: pointer;
 }
 
 .profile-header {

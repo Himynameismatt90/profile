@@ -214,6 +214,10 @@ a {
   font-size: 44px;
 }
 
+.projects-wrapper {
+  overflow-y: scroll;
+}
+
 .right-project {
   display: flex;
   justify-content: flex-end;
