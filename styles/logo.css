@@ -1,0 +1,28 @@
+.html-logo, .css-logo, .js-logo, .ruby-logo, .swift-logo {
+  transition: color 0.5s ease;
+  transition: 0.7s ease;
+}
+
+.zoom-logo:hover {
+  scale: 1.5;
+}
+
+.html-logo:hover {
+  color: orange;
+}
+
+.css-logo:hover {
+  color: purple;
+}
+
+.js-logo:hover {
+  color: rgb(240, 219, 79);
+}
+
+.ruby-logo:hover {
+  color: red;
+}
+
+.swift-logo:hover {
+  color: dodgerblue;
+}

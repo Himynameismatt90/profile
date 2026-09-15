@@ -1,0 +1,37 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: grey;
+  transition: 0.5s ease;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-bar > a,
+.nav-bar > p {
+  cursor: pointer;
+  transition: 0.5s ease;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar > a:hover {
+  color: white;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0 100px 0;
+  gap: 50px;
+}
+
+.profile-img {
+  height: 300px;
+  border-radius: 50%;
+  /* object-fit: cover;
+  object-position: right; */
+}

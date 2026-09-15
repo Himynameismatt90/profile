@@ -4,107 +4,126 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Himynameismatt</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
 </head>
 <body>
 
+  <!--Navbar-->
   <nav class="nav-bar">
-    <a href="index.html"><i class="fa-solid fa-house"></i></a>
-    <a href="about.html">Profile</a>
-    <a href="projects.html">Projects</a>
+    <a href="#"><i class="fa-solid fa-chevron-up fa-bounce"></i></a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
     <p class="js-toggle-btn">🌙</p>
   </nav>
 
   <div class="content-wrapper">
     <header class="profile-header">
-        <div>
-          <img src="./images/profile.jpeg" class="profile-img">
-        </div>
-        <div>
-          <h1>Himynameismatt</h1>
-          <p>Aspiring coder person who loves music, video games and gym!</p>
-        </div>
-      </header>
+      <div>
+        <img src="./images/coding.jpeg" class="profile-img">
+      </div>
+      <div>
+        <h1>Himynameismatt</h1>
+        <p>Some kind of coder person who loves music, video games and gym!</p>
+      </div>
+    </header>
 
-      <div class="skill-container">
-        <div>
-          <h2 class="text-centre">A student at LeWagon aiming to be a front end developer!</h2>
-        </div>
-        <div class="link-box">
-          <h4>Check out my socials!</h4>
-            <a href="https://github.com/Himynameismatt90" target="_blank">
-              <i class="fa-brands fa-github link-logo js-link-logo"></i>
-            </a>
-          <h4>
-            <a href="https://www.linkedin.com" target="_blank">
-              <i class="fa-brands fa-linkedin link-logo js-link-logo"></i>
-            </a>
-          </h4>
-        </div>
+    <!--About me-->
+    <div class="about-me-desc">
+      <h3>A little bit about me...</h3>
+      <div class="bio-box">
+        <p>
+          Lived in Japan since 2020, worked as an English tutor until
+          the summer of 2026 and began my coding journey through my interest
+          of technology.
+        </p>
+        <p>
+          I am currently studying coding at LeWagon! Looking to work as a frontend
+          developer after the bootcamp!
+        </p>
       </div>
 
-        <div class="language-container">
-          <div>
-            <h2>Here is my tech stack! <i class="fa-brands fa-apple"></i></h2>
-          </div>
-          <div class="langauge-box">
-            <i class="fa-brands fa-html5 html-logo zoom-logo"></i>
-            <i class="fa-brands fa-css3-alt css-logo zoom-logo"></i>
-            <i class="fa-brands fa-square-js js-logo zoom-logo"></i>
-            <i class="fa-solid fa-gem ruby-logo zoom-logo"></i>
-          </div>
+      <div class="bio-box">
+        <p>
+          2020年に来日し、LeWagon入学前は2026年の夏まで英会話教師として働いていた。
+        </p>
+        <p>
+          プログラミングに興味を持ち独学で約1年間勉強していたが、
+          プログラミングを本業にするためLeWagonを受講中。
+        </p>
+        <p>
+          LeWagon卒業後は、フロントエンドデベロッパーとしての就職を目指している。
+        </p>
+      <p>I also currently hold JLPT N2🇯🇵 日本語能力試験N2合格🇯🇵</p>
       </div>
+    </div>
 
-
-      <div class="about-me-container">
-        <div class="about-box js-about-box">
-          <div>
-            <h2>Music 🎧</h2>
-          </div>
-          <p>I love punk and metal!🤘</p>
-          <div>
-            <p class="js-img-shuffle"></p>
-          </div>
-        </div>
-        <div class="about-box js-about-box">
-          <div>
-            <h2>Video games 🎮</h2>
-          </div>
-          <p class="centre-text">I love playing video games! I even play games
-            in Japanese so I can improve my vocabulary and grammar!</p>
-          <p>日本語を上達させるため、日本語でゲームする！</p>
-        </div>
-
-        <div class="about-box js-about-box">
-          <div>
-            <h2>Gym 💪</h2>
-          </div>
-          <p>Weightlifting and running!</p>
-          <p>PROTEIN!</p>
-        </div>
+      <!--Tech Stack-->
+    <div class="language-container">
+      <div>
+        <h2>Tech stack! <i class="fa-brands fa-apple"></i></h2>
       </div>
+      <div class="langauge-box">
+        <i class="fa-brands fa-html5 html-logo zoom-logo"></i>
+        <i class="fa-brands fa-css3-alt css-logo zoom-logo"></i>
+        <i class="fa-brands fa-square-js js-logo zoom-logo"></i>
+        <i class="fa-solid fa-gem ruby-logo zoom-logo"></i>
+      </div>
+    </div>
+
+    <!--Projects-->
+    <p class="title">Projects</p>
+    <div class="projects-wrapper">
+      <div class="peraflash-container left-project project-container">
+        <p class="sub-title">Pera Flash!</p>
+        <a href="https://pera-flash-3683e7b80a56.herokuapp.com" target="_blank">Pera Flash!</a>
+      </div>
+      <div class="moodwalk-container right-project">
+        <p class="sub-title">Moodwalk</h2>
+        <a href="https://moodwalk-ec6251edd332.herokuapp.com" target="_blank">Check it out!</a>
+      </div>
+      <div class="temp-container left-project">
+        <p class="sub-title">Under construction 🔧</h2>
+      </div>
+    </div>
+
+      <!--Socials-->
+    <div class="link-box">
+      <h4>Check out my socials!</h4>
+        <a href="https://github.com/Himynameismatt90" target="_blank">
+          <i class="fa-brands fa-github link-logo js-link-logo"></i>
+        </a>
+      <h4>
+        <a href="https://www.linkedin.com/in/matthew-hardcastle90/" target="_blank">
+          <i class="fa-brands fa-linkedin link-logo js-link-logo"></i>
+        </a>
+      </h4>
+    </div>
   </div>
 
   <footer class="nav-footer">
-  <div>
-    <p>Himynameismatt</p>
-  </div>
-
-  <div class="logo-links">
     <div>
-      <a href="https://www.linkedin.com" target="_blank">
-        <i class="fa-brands fa-linkedin"></i>
-      </a>
+      <p>Himynameismatt</p>
     </div>
-    <div>
-      <a href="https://github.com/Himynameismatt90" target="_blank">
-        <i class="fa-brands fa-github"></i>
-      </a>
+    <div class="logo-links">
+      <div>
+        <a href="https://www.linkedin.com/in/matthew-hardcastle90/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/Himynameismatt90" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollToPlugin.min.js"></script>
 <script src="script.js"></script>
+<script src="/scripts/gsap.js"></script>
 </body>
 </html>

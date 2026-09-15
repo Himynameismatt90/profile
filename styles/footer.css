@@ -1,0 +1,21 @@
+.nav-footer {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.logo-links {
+  display: flex;
+}
+
+.nav-footer p {
+  margin-left: 25px;
+}
+
+.nav-footer i {
+  color: white;
+  font-size: 25px;
+  margin-right: 25px;
+}
