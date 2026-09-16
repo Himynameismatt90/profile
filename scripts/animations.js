@@ -25,6 +25,35 @@ contactButton.addEventListener('click', () => {
   gsap.to(window, { duration: 0.5, scrollTo: {y:".link-box"} })
 });
 
+// INTRO
+// Glitch text effect
+
+const glitchElement = document.querySelector('.glitch-text');
+const turquoise = "#00ffff";
+const pink = "#ff00ff";
+
+glitchElement.addEventListener('mouseenter', () => {
+
+  gsap.killTweensOf(glitchElement);
+
+  gsap.to(glitchElement, {
+    duration: 1,
+    textShadow: "-4px 0px 10px rgba(0, 255, 255, 0.5), 4px 0px 10px rgba(255, 0, 255, 0.5)",
+    ease: "power1.out"
+  });
+});
+
+glitchElement.addEventListener('mouseleave', () => {
+
+  gsap.killTweensOf(glitchElement);
+
+  gsap.to(glitchElement, {
+    duration: 1,
+    textShadow: "none",
+    ease: "power1.out"
+  });
+});
+
 
 // PROJECTS
 // ScrollTrigger animations

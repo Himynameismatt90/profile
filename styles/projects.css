@@ -15,6 +15,17 @@ body.dark-mode .sub-title {
   color: rgb(220, 220, 220);
 }
 
+#project-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-intro {
+  width: 680px;
+}
+
 #projects-wrapper {
   overflow: hidden !important;
 
