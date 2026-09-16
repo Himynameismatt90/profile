@@ -1,21 +1,45 @@
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
+// ScrollTrigger animations
+
 gsap.to(".peraflash-container", {
-  ScrollTrigger: ".peraflash-container",
-  x: 80,
-  duration: 2
+  scrollTrigger: {
+    trigger: ".peraflash-container",
+    scrub: true,
+    start: "top 92%",
+    end: "top 32%"
+  },
+
+  x: 600,
+  opacity: 1,
+  ease: "back.out(1.7)"
 });
 
-gsap.to(".moodwalk-container", {
-  ScrollTrigger: ".moodwalk-container",
-  x: 800,
-  duration: 2
+gsap.from(".moodwalk-container", {
+  scrollTrigger: {
+    trigger: ".moodwalk-container",
+    start: "top 100%",
+    scrub: true,
+    start: "top 92%",
+    end: "top 28%"
+  },
+
+  x: 560,
+  opacity: 0,
+  ease: "back.out(1.7)"
 });
 
 gsap.to(".temp-container", {
-  ScrollTrigger: ".temp-container",
-  x: 80,
-  duration: 2
+  scrollTrigger: {
+    trigger: ".temp-container",
+    start: "top 92%",
+    end: "top 28%",
+    scrub: true
+  },
+
+  x: 1000,
+  opacity: 1,
+  ease: "back.out(1.7)"
 });
 
 // scrollTo section

@@ -78,19 +78,40 @@
     <p class="title">Projects</p>
 
     <div id="projects-wrapper">
-      <div class="peraflash-container left-project project-container mb-5">
+      <div class="peraflash-container left-project project-container">
         <a href="https://pera-flash-3683e7b80a56.herokuapp.com" target="_blank"
         class="sub-title">
           Pera Flash!
         </a>
-        <div class="screenshot-container">
-          <img src="/images/optionmenu.png" alt="" class="screenshot">
-          <img src="/images/chatstart.png" alt="" class="screenshot">
-          <img src="/images/chatrpg.png" alt="" class="screenshot">
+        <p class="mb-5">
+          My personal favourite! A Japanese language assistant to help you study.
+        </p>
+        <div class="screenshot-container d-flex flex-column">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/images/optionmenu.png" alt="" class="screenshot">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/chatstart.png" alt="" class="screenshot">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/chatrpg.png" alt="" class="screenshot">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
 
-      <div class="moodwalk-container right-project mb-5">
+      <div class="moodwalk-container right-project project-container">
         <a href="https://moodwalk-ec6251edd332.herokuapp.com" target="_blank"
         class="sub-title">
           MoodWalk
@@ -113,9 +134,11 @@
     </div>
 
       <!--Socials-->
-    <div class="link-box">
+    <div class="link-box d-flex align-items-center">
       <h4>Check out my socials!</h4>
-        <a href="https://github.com/Himynameismatt90" target="_blank">
+        <a href="https://github.com/Himynameismatt90" target="_blank"
+        class="link-logo js-link-logo"
+        >
           <i class="fa-brands fa-github link-logo js-link-logo"></i>
         </a>
       <h4>

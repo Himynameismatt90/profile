@@ -1,6 +1,7 @@
 @import url("styles/nav_bar.css"); /* nav-bar and header */
 @import url("styles/logo.css"); /* logos */
 @import url("styles/projects.css");
+@import url("styles/carousel.css");
 @import url("styles/footer.css"); /* footer */
 
 
@@ -11,6 +12,8 @@ body {
   flex-direction: column;
   min-height: 100dvh;
   transition: 0.5s ease;
+
+  overflow-x: hidden !important;
 
   background: #D0D0D0;
 }
@@ -110,6 +113,10 @@ a {
 .link-logo {
   font-size: 50px;
   color: black;
+}
+
+body.dark-mode > i {
+  color: rgb(220, 220, 220);
 }
 
 .link-dark {
