@@ -24,8 +24,16 @@ body.dark-mode .sub-title {
 }
 
 .peraflash-container,
-.temp-container {
+.temp-container,
+.pera-title,
+.pera-text {
   opacity: 0;
+
+  margin-right: 80px;
+}
+
+.project-about {
+  width: 680px;
 }
 
 .project-container {
@@ -33,10 +41,6 @@ body.dark-mode .sub-title {
   flex-direction: column;
 
   margin: 0px 0px 200px 0px;
-}
-
-.left-project {
-  margin-right: 80px;
 }
 
 .right-project {
@@ -55,10 +59,14 @@ body.dark-mode .sub-title {
 }
 
 .screenshot {
-  height: 640px;
-  width: 1080px;
+  height: 520px;
+  width: 960px;
 
   border-radius: 12px;
+}
+
+.mood-text {
+  width: 640px;
 }
 
 .moodwalk-screenshot {

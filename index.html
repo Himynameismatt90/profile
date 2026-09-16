@@ -31,6 +31,8 @@
       </div>
     </header>
 
+    <hr>
+
     <!--About me-->
     <div class="about-me-desc">
       <h3 class="my-5">A little bit about me...</h3>
@@ -61,6 +63,8 @@
       </div>
     </div>
 
+    <hr class="ms-auto">
+
       <!--Tech Stack-->
     <div class="language-container">
       <div>
@@ -74,22 +78,31 @@
       </div>
     </div>
 
+    <hr>
+
     <!--Projects-->
     <p class="title">Projects</p>
 
+    <p class="my-5 text-center">
+      Here's some projects I have worked on! You can click the titles to visit the page!
+    </p>
+
     <div id="projects-wrapper">
       <div class="peraflash-container left-project project-container">
-        <a href="https://pera-flash-3683e7b80a56.herokuapp.com" target="_blank"
-        class="sub-title">
-          Pera Flash!
-        </a>
-        <p class="mb-5">
+          <a href="https://pera-flash-3683e7b80a56.herokuapp.com" target="_blank"
+          class="sub-title pera-title">
+            Pera Flash!
+          </a>
+        <p class="mb-5 project-about pera-text">
           My personal favourite! A Japanese language assistant to help you study.
+          As someone who enjoys consuming Japanese media, it can be rather
+          frustrating having to pause a movie, a game or a book to look up
+          words and grammar. So that's why we made PeraFlash!
         </p>
         <div class="screenshot-container d-flex flex-column">
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item d-flex justify-content-center active">
                 <img src="/images/optionmenu.png" alt="" class="screenshot">
               </div>
               <div class="carousel-item">
@@ -111,17 +124,35 @@
         </div>
       </div>
 
+      <hr class="ms-auto">
+
       <div class="moodwalk-container right-project project-container">
-        <a href="https://moodwalk-ec6251edd332.herokuapp.com" target="_blank"
-        class="sub-title">
-          MoodWalk
-        </a>
+          <a href="https://moodwalk-ec6251edd332.herokuapp.com" target="_blank"
+          class="sub-title">
+            MoodWalk
+          </a>
+        <p class="mb-2 project-about">
+          Feeling stressed? Want to go outside to clear your head but don't know
+          where? MoodWalk has you covered! The app will decide a route for you
+          based on your location and what you want to get out of your walk.
+          But that's not all!
+        </p>
+        <p class="mb-5 project-about">
+          On your walk, you can capture something you thought was cool, moving,
+          or interesting and keep it for later. At the end of your walk, your photo
+          will be saved on a card for you to look back on, when you want to reminisce
+          about a certain time. Your route and memory can be shared with the community,
+          helping others enjoy a relaxing walk and lead them to discover their
+          own special moment!
+        </p>
           <div class="screenshot-container">
             <img src="/images/moodlanding.png" alt="" class="moodwalk-screenshot">
             <img src="/images/moodcard.png" alt="" class="moodwalk-screenshot">
             <img src="/images/moodexplore.png" alt="" class="moodwalk-screenshot">
           </div>
       </div>
+
+      <hr>
 
       <div class="temp-container left-project">
         <p class="sub-title mb-5">
@@ -132,6 +163,8 @@
         </p>
       </div>
     </div>
+
+    <hr class="ms-auto">
 
       <!--Socials-->
     <div class="link-box d-flex align-items-center">
@@ -170,6 +203,7 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollToPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script src="./script.js"></script>
 <script src="./scripts/animations.js"></script>
 </body>

@@ -1,47 +1,7 @@
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
-// ScrollTrigger animations
 
-gsap.to(".peraflash-container", {
-  scrollTrigger: {
-    trigger: ".peraflash-container",
-    scrub: true,
-    start: "top 92%",
-    end: "top 32%"
-  },
-
-  x: 600,
-  opacity: 1,
-  ease: "back.out(1.7)"
-});
-
-gsap.from(".moodwalk-container", {
-  scrollTrigger: {
-    trigger: ".moodwalk-container",
-    start: "top 100%",
-    scrub: true,
-    start: "top 92%",
-    end: "top 28%"
-  },
-
-  x: 560,
-  opacity: 0,
-  ease: "back.out(1.7)"
-});
-
-gsap.to(".temp-container", {
-  scrollTrigger: {
-    trigger: ".temp-container",
-    start: "top 92%",
-    end: "top 28%",
-    scrub: true
-  },
-
-  x: 1000,
-  opacity: 1,
-  ease: "back.out(1.7)"
-});
-
+// NAVBAR
 // scrollTo section
 
 const topButton = document.getElementById("js-top-btn");
@@ -63,4 +23,60 @@ projectsButton.addEventListener('click', () => {
 
 contactButton.addEventListener('click', () => {
   gsap.to(window, { duration: 0.5, scrollTo: {y:".link-box"} })
-})
+});
+
+
+// PROJECTS
+// ScrollTrigger animations
+
+gsap.to(".peraflash-container", {
+  scrollTrigger: {
+    trigger: ".peraflash-container",
+    scrub: true,
+    start: "top 92%",
+    end: "top 32%"
+  },
+
+  x: 480,
+  opacity: 1,
+  ease: "back.out(2)"
+});
+
+gsap.to(".pera-title", {
+  x: 744,
+  opacity: 1,
+  ease: "back.out(2)"
+});
+
+gsap.to(".pera-text", {
+  x: 308,
+  opacity: 1,
+  ease: "back.out(2)"
+});
+
+gsap.from(".moodwalk-container", {
+  scrollTrigger: {
+    trigger: ".moodwalk-container",
+    start: "top 100%",
+    scrub: true,
+    start: "top 92%",
+    end: "top 28%"
+  },
+
+  x: 560,
+  opacity: 0,
+  ease: "back.out(2)"
+});
+
+gsap.to(".temp-container", {
+  scrollTrigger: {
+    trigger: ".temp-container",
+    start: "top 92%",
+    end: "top 28%",
+    scrub: true
+  },
+
+  x: 920,
+  opacity: 1,
+  ease: "back.out(2)"
+});

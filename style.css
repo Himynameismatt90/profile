@@ -18,6 +18,10 @@ body {
   background: #D0D0D0;
 }
 
+hr {
+  width: 76%;
+}
+
 a {
   text-decoration: none;
 }

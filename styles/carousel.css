@@ -1,3 +1,7 @@
 .carousel {
-  width: 800px;
+  width: 960px;
+}
+
+.carousel-inner {
+  border-radius: 24px;
 }
