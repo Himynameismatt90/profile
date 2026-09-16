@@ -8,7 +8,7 @@ gsap.to(".peraflash-container", {
 
 gsap.to(".moodwalk-container", {
   ScrollTrigger: ".moodwalk-container",
-  x: -80,
+  x: 800,
   duration: 2
 });
 
@@ -30,13 +30,13 @@ topButton.addEventListener('click', () => {
 });
 
 aboutButton.addEventListener('click', () => {
-  gsap.to(window, { duration: 1, scrollTo: {y:".about-me-desc"}});
+  gsap.to(window, { duration: 0.5, scrollTo: {y:".about-me-desc"}});
 });
 
 projectsButton.addEventListener('click', () => {
-  gsap.to(window, { duration: 1, scrollTo: {y:".title", offsetY: 120}});
+  gsap.to(window, { duration: 0.5, scrollTo: {y:".title", offsetY: 120}});
 });
 
 contactButton.addEventListener('click', () => {
-  gsap.to(window, { duration:1, scrollTo: {y:".link-box"} })
+  gsap.to(window, { duration: 0.5, scrollTo: {y:".link-box"} })
 })

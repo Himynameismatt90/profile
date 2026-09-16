@@ -1,7 +1,7 @@
 @import url("styles/nav_bar.css"); /* nav-bar and header */
 @import url("styles/logo.css"); /* logos */
+@import url("styles/projects.css");
 @import url("styles/footer.css"); /* footer */
-/* @import url("styles/magic_style.css"); magic 8ball */
 
 
 body {
@@ -11,6 +11,8 @@ body {
   flex-direction: column;
   min-height: 100dvh;
   transition: 0.5s ease;
+
+  background: #D0D0D0;
 }
 
 a {
@@ -79,10 +81,9 @@ a {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #333333;
   color: rgb(220, 220, 220);
 }
-
 
 .content-wrapper {
   flex: 1;
@@ -158,7 +159,7 @@ a {
   flex-direction: column;
   align-items: center;
 
-  margin-bottom: 120px;
+  margin: 160px 0px;
 }
 
 .langauge-box {
@@ -190,35 +191,4 @@ a {
 .bio-box {
   width: 700px;
   margin-bottom: 20px;
-}
-
-.future-about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  margin-top: 100px;
-}
-
-.future-about .swift-logo {
-  margin-top: 50px;
-  font-size: 75px;
-}
-
-.title {
-  font-size: 64px;
-  text-align: center;
-}
-
-.sub-title {
-  font-size: 44px;
-}
-
-.projects-wrapper {
-  overflow-y: scroll;
-}
-
-.right-project {
-  display: flex;
-  justify-content: flex-end;
 }
