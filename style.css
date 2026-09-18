@@ -111,8 +111,8 @@ body.dark-mode > i {
   color: rgb(220, 220, 220);
 }
 
-.link-dark {
-  color: rgba(220, 220, 220);
+body.dark-mode .link-dark {
+  color: rgba(220, 220, 220) !important;
 }
 
 .link-btn {
@@ -124,9 +124,6 @@ body.dark-mode > i {
   cursor: pointer;
   font-size: 50px;
 }
-/* .link-btn:hover {
-  box-shadow: 2px 2px 5px rgba(220, 220, 220, 0.9);
-} */
 
 .about-me-container {
   display: flex;

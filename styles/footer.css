@@ -10,6 +10,7 @@
 
 .logo-links {
   display: flex;
+  align-items: center;
 }
 
 .nav-footer p {
